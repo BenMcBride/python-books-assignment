@@ -1,0 +1,37 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.table {
+    margin: 0 auto;
+    max-width: fit-content;
+}
+.form {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border: 1px solid #adb5bd;
+    border-radius: 3px;
+}
+.all-authors {
+    min-width: 250px;
+}
+.input {
+    margin-bottom: 20px;
+    width: 400px;
+}
+.submit {
+    margin-bottom: 10px;
+}
+.marg-top {
+    margin-top: 10px;
+}
